@@ -7,7 +7,7 @@ mkdir -p /data/html/www
 mkdir -p /data/logs/nginx
 yum -y install lrzsz gcc gcc-c++ openssl openssl-devel
 
-source ./nginx.sh
-source ./php.sh
-source ./mysql.sh
+source ./nginx/nginx.sh
+source ./php/php.sh
+source ./mysql/mysql.sh
 
