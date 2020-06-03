@@ -35,7 +35,7 @@ chkconfig --add mysqld
 chkconfig mysqld on
 chkconfig --list | grep mysqld
 mysqld --initialize-insecure --user=mysql --basedir=/usr/local/mysql --datadir=/usr/local/mysql/data
-cp ${rootPath}/my.cnf /etc/
+cp ${rootPath}/mysql/my.cnf /etc/
 touch /usr/local/mysql/logs/mysqld.log
 touch /usr/local/mysql/pids/mysqld.pid
 chown mysql.mysql -R /usr/local/mysql/
